@@ -1,0 +1,373 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/task3.css">
+</head>
+<body>
+<header>
+    <section id="Home">
+
+<nav class="navbar navbar-expand-lg bg-body-tertiary text-light fixed p-4">
+    <div class="container-fluid">
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
+            aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                
+                <div class="navbar-nav gap-3" id="nav">
+                <h3 class="text-dark mt-2" id="Berim">Berim <span>Bolo</span> </h3>
+                <a class="nav-link active ms-5" aria-current="page" href="#Home">Home</a>
+                <a class="nav-link ms-5" href="#service">Service</a>
+                <a class="nav-link ms-5" href="#Category">Category</a>
+                <a class="nav-link ms-5" href="#Contact Us">Contact Us</a>
+                <a class="nav-link ms-5" href="#Footer">Footer</a>
+                <button data-bs-target="#Join" class=" btn btn-outline-primary ms-5 p-3" data-bs-toggle="modal">Join Us</button>
+                <button data-bs-target="#shop" class=" btn btn-outline-primary ms-5 p-3" data-bs-toggle="modal">Shop</button>
+                <button data-bs-target="#Feed" class=" btn btn-outline-primary ms-5 p-3" data-bs-toggle="modal">Feed Back</button>
+                
+            </div>
+        </div>
+    </div>
+</nav>
+
+<div id="Join" class="modal">
+
+    <div class="modal-dialog">
+
+        <div class="modal-content text-center bg-light p-5">
+
+            <div class="modal-header">
+                <p class="display-4">log in</p>
+                <button class="btn btn-close mt-2" data-bs-dismiss="modal"></button>
+            </div>
+
+            <div class="modal-body">
+
+                <input class="w-100 rounded-2 p-2" type="text" placeholder="enter your name">
+
+                <br>
+                <br>
+
+                <input class="w-100 rounded-2 p-2" type="email" placeholder="enter your email">
+
+                <br>
+                <br>
+
+                <input class="w-100 rounded-2 p-2" type="number" placeholder="emter you phone number">
+
+            </div>
+
+            <div class="modal-footer"> <button class="btn btn-outline-primary mt-2 m-auto">Log in</button></div>
+
+            <div class="inline">
+
+            
+
+            </div>
+
+        </div>
+
+    </div>
+
+</div>
+
+
+
+
+
+
+<div id="shop" class="modal">
+
+    <div class="modal-dialog">
+
+        <div class="modal-content text-center bg-light p-5">
+
+            <div class="modal-header">
+                <p class="display-4 text-center m-auto">Our Products</p>
+            </div>
+
+            <div class="modal-body">
+
+                
+<div class="card mb-3 p-5 rounded-4" style="max-width: 540px;">
+    <div class="row g-0">
+        <div class="col-md-4">
+            <img src="./images/1(2).png" class="img-fluid rounded-start" alt="...">
+        </div>
+        <div class="col-md-8">
+            <div class="card-body">
+                <h5 class="card-title">surveillance camera</h5>
+                <p class="card-text">A 360-degree surveillance camera with very high quality and reliable in the largest places and the farthest distances</p>
+                <p class="card-text"><small class="text-body-secondary"><button class="btn btn-outline-primary">Buy</button></small></p>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+
+
+
+                <br>
+
+                
+
+<div class="card mb-3 p-5 rounded-4" style="max-width: 540px;">
+    <div class="row g-0">
+        <div class="col-md-4">
+            <img src="./images/2(2).png" class="img-fluid rounded-start" alt="...">
+        </div>
+        <div class="col-md-8">
+            <div class="card-body">
+                <h5 class="card-title">circular camera</h5>
+                <p class="card-text">It is a camera with a timer, where when a specific period of time passes, it rewinds around itself to be aware of the
+                situations around it, and it is distinguished by having a very strong audio recording.</p>
+                <p class="card-text"><small class="text-body-secondary"><button class="btn btn-outline-primary">Buy</button></small></p>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+
+                <br>
+
+
+
+
+<div class="card mb-3 p-5 rounded-4" style="max-width: 540px;">
+    <div class="row g-0">
+        <div class="col-md-4">
+            <img src="./images/3(3).png" class="img-fluid rounded-start" alt="...">
+        </div>
+        <div class="col-md-8">
+            <div class="card-body">
+                <h5 class="card-title">Angle camera</h5>
+                <p class="card-text">It is a camera that depends on being present in the corners in order to be aware of the whole place and with the highest
+                quality.</p>
+                <p class="card-text"><small class="text-body-secondary"><button class="btn btn-outline-primary"> Buy </button></small></p>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+
+
+                
+
+            </div>
+
+            <div class="modal-footer"> <button class="btn btn-outline-dark mt-2"> More>></button></div>
+
+            <div class="inline">
+
+                <div class="moal-footer">
+
+                    <button class="btn btn-close mt-2" data-bs-dismiss="modal"></button>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</div>
+
+
+
+
+
+
+
+<div id="Feed" class="modal">
+
+    <div class="modal-dialog">
+
+        <div class="modal-content text-center bg-light p-5">
+
+            <div class="modal-header">
+                <p class="display-4 text-center">Send Your Request</p>
+                <button class="btn btn-close mt-2" data-bs-dismiss="modal"></button>
+            </div>
+
+            <div class="modal-body">
+
+                <textarea name="" id="" placeholder="Enter Your Request" rows="9" cols="50" class="rounded-4 text-center"></textarea>
+
+                <br>
+                <br>
+
+            </div>
+
+            <div class="modal-footer"> <button class="btn btn-outline-primary mt-2 m-auto">Send</button></div>
+
+            <div class="inline">
+
+                
+
+            </div>
+
+        </div>
+
+    </div>
+
+</div>
+
+
+
+
+
+
+
+
+<br><br><br><br><br><br><br>
+
+
+<h1 class="text-center text-light w-100 m-auto" id="text1">Security and safety are means of livelihood and there is no doubt that it is one of the reasons for human survival. God
+has preserved him and made him take the necessary measures and protect himself.</h1>
+
+<div class="container">
+
+<div class="d-lg-flex mt-5 wrap justify-content-between" id="images">
+    <div><button class="btn btn-outline"><img src="./images/1.png" alt="" width="250" height="250" id="images"></button></div>
+    <div><button class="btn btn-outline"><img src="./images/2.png" alt="" width="250" height="250" id="images"></button></div>
+    <div><button class="btn btn-outline"><img src="./images/3.png" alt="" width="250" height="250" id="images"></button></div>
+</div>
+</div>
+</section>
+<br><br><br><br>
+<section id="service">
+
+<BR></BR><BR></BR><BR>
+    <h1 class="text-center text-light w-100 m-auto" id="text">We provide a semi-integrated security service for almost all places. We are distinguished by our high quality and
+    extreme accuracy.
+    Here are some examples of our products:</h1>
+    
+
+    <div class="d-lg-flex justify-content-around" id="images2">
+        <div><button class="btn btn-outline"><img src="./images/1(2).png" alt="" width="250" height="250"
+                    id="images2"></button></div>
+        <div><button class="btn btn-outline"><img src="./images/2(2).png" alt="" width="250" height="250"
+                    id="images2"></button></div>
+        <div><button class="btn btn-outline"><img src="./images/3(3).png" alt="" width="250" height="250"
+                    id="images2"></button></div>
+    </div>
+
+</section>
+<section id="Category">
+    <BR></BR><BR></BR><BR></BR><BR>
+
+<div class="container">
+<div class="d-lg-flex justify-content-around gap-5 cards">
+
+    <div class="card p-lg-3 rounded-4" style="width: 18rem;">
+        <img src="./images/1(3).png" class="card-img-top" alt="...">
+        <div class="card-body">
+            <h5 class="card-title text-primary">First</h5>
+            <p class="card-text">It is a somewhat intuitive security system, but it is equipped with modern devices that can be used and relied upon to a
+            great extent.</p>
+            <a href="#" class="btn btn-outline-primary p-2">more>>></a>
+        </div>
+    </div>
+
+
+<div class="card p-lg-3 rounded-4" style="width: 18rem;">
+    <img src="./images/2(3).png" class="card-img-top" alt="...">
+    <div class="card-body">
+        <h5 class="card-title text-primary">Second</h5>
+        <p class="card-text">It is an advanced security system used in large places such as large neuses and real estate</p>
+        <a href="#" class="btn btn-outline-primary p-2">more>>></a>
+    </div>
+</div>
+
+
+<div class="card p-lg-3 rounded-4" style="width: 18rem;">
+    <img src="./images/guard.png" class="card-img-top" alt="...">
+    <div class="card-body">
+        <h5 class="card-title text-primary">Third (Super)</h5>
+        <p class="card-text">It is the highest or super system, in a better sense, as it is used in large companies and is provided with manual
+        security</p>
+        <a href="#" class="btn btn-outline-primary p-2">more>>></a>
+    </div>
+</div>
+
+
+</div>
+</div>
+</section>
+
+<br><br><br><br><br>
+
+<section id="Contact Us">
+<div class="container">
+
+<br><br><br><br><br>
+
+    <div class="d-lg-flex mt-5 wrap justify-content-between" id="images">
+        <div><button class="btn btn-outline"><img src="./images/youtube.png" alt="" width="250" height="250"
+                    id="images"></button> <h3 class="text-center text-bg-primary mb-2 p-2 rounded-3">Berim Bolo</h3></div>
+
+        <div><button class="btn btn-outline"><img src="./images/twitter.png" alt="" width="250" height="250"
+                    id="images"></button> <h3 class="text-center text-bg-primary mb-2 p-2 rounded-3">berim_bolo</h3></div>
+
+        <div><button class="btn btn-outline"><img src="./images/social.png" alt="" width="250" height="250"
+                    id="images"></button> <h3 class="text-center text-bg-primary mb-2 p-2 rounded-3">Berim_Bolo_1</h3></div>
+
+        <div><button class="btn btn-outline"><img src="./images/facebook.png" alt="" width="250" height="250" id="images">
+        </button> <h3 class="text-center text-bg-primary mb-2 p-2 rounded-3">Berim Bolo</h3></div>
+    </div>
+</div>
+<br><br><br>
+</section>
+
+<section id="Footer">
+<br><br><br><br><br><br>
+<center>
+<h1 class="text-center text-light w-50 m-auto">If you find anything incomprehensible or unclear on our website, please contact us.</h1>
+<br><br><br><br>
+<div class="card mb-3 p-5 rounded-4" style="max-width: 350px;">
+    <div class="row g-0">
+        <div class="col-md-4">
+            <img src="./images/whatsapp.png" class="img-fluid rounded-start" alt="...">
+        </div>
+        <div class="col-md-8">
+            <div class="card-body">
+                <h5 class="card-title">Complaints</h5>
+                <p class="card-text">012345678910</p>
+                <p class="card-text"><small class="text-body-secondary"><button class="btn btn-outline-dark">Contact Us</button></small></p>
+            </div>
+        </div>
+    </div>
+</div>
+</center>
+<br><br><br><br><br>
+</section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+</header>
+    <script src="./js/bootstrap.bundle.min.js"></script>
+<script src="./js/task.js"></script>
+</body>
+</html>
